@@ -154,7 +154,7 @@ def submit_feedback(data: Feedback):
     return {"ai_response": ai_response}
 
 # =========================
-# GET ALL FEEDBACK (ADMIN)
+
 # =========================
 @app.get("/feedback")
 def get_feedback():
