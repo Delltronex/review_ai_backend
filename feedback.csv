@@ -1,0 +1,30 @@
+timestamp,rating,review,ai_response,summary,recommended_action
+2026-01-01 23:20:53,5,hii my name is kaushal your product is very good,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:20:54,5,hii my name is kaushal your product is very good,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:21:23,5,hello my name is kaushal and i like yourr product,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:22:24,5,hello g,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:22:29,5,,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:24:16,5,helo my name is kaushal,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:41:25,5,buggati,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.,Thank you for your feedback. We appreciate you sharing your thoughts.
+2026-01-01 23:46:14,5,hello my name is kaushal,"Hello Kaushal, it's wonderful to meet you! Thank you so much for the fantastic 5/5 rating; we truly appreciate your support.",Kaushal introduces himself.,"Add a context-specific follow-up phrase to clarify your purpose or invite further interaction.
+
+**Example options:**
+
+*   ""Hello, my name is Kaushal. **It's a pleasure to meet you.**""
+*   ""Hi, I'm Kaushal. **How can I help you today?**""
+*   ""Good morning, my name is Kaushal. **I'm here for the [meeting/interview/event].**"""
+2026-01-01 23:46:17,5,hello my name is kaushal,"Hello Kaushal, it's lovely to meet you! We truly appreciate you taking the time to leave such a kind 5-star rating.",The review is a self-introduction by Kaushal.,"**Improvement Action:** ""Clearly state the *purpose* or *context* immediately after the introduction.""
+
+**Rationale:** The review only contains a greeting and an introduction. While polite, it leaves the listener wondering ""why are you telling me this now?"" or ""what's next?"". Stating a purpose immediately guides the conversation and makes the interaction more effective."
+2026-01-02 00:16:17,1,kya bekar product hai,"हमें यह जानकर बहुत अफ़सोस हुआ कि आपको हमारे प्रोडक्ट से निराशा हुई है। कृपया हमें बताएं कि आपको क्या समस्या आ रही है, ताकि हम आपकी सहायता कर सकें और इसे ठीक करने में मदद करें।",The product is terrible.,"**Improvement Action:** Implement a more structured feedback collection system for product reviews.
+
+**Explanation:** The review ""kya bekar product hai"" (What a useless product) expresses strong dissatisfaction but lacks any specific details. To actually improve the product, the company needs to understand *what specifically* made it ""bekar."" A structured feedback system would prompt customers to elaborate on aspects like:
+
+*   ""What specific feature disappointed you?""
+*   ""Was the quality, functionality, or ease of use the main issue?""
+*   ""Could you describe the problem you experienced?""
+
+This would turn vague complaints into actionable insights for product development."
+2026-01-02 00:16:28,1,kya bekar product hai,"We're truly sorry to hear that our product did not meet your expectations and you found it unsatisfactory. We'd appreciate it if you could share more details about what went wrong, so we can understand the issue better and assist you.",The product is terrible.,"**Reach out to the customer to understand the specific reasons for their dissatisfaction and identify the exact pain points.**
+
+*   **Why this is crucial:** The review is very general (""useless product""). Without understanding *why* they find it useless (e.g., specific bugs, poor performance, missing features, difficult to use, faulty part), any improvement action would be a guess. Getting more details from the customer is the first, essential step to diagnose the problem effectively."
