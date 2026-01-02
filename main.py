@@ -81,7 +81,7 @@ app.add_middleware(
         "https://review-ai-admin.vercel.app/"
         
     ],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
