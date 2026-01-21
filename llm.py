@@ -1,13 +1,20 @@
+import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 
-# 🔴 SET YOUR API KEY HERE (LOCAL TESTING ONLY)
-# API_KEY = "AIzaSyCFjHvD8Gt-qvPIKlM2fPy2IfHqmsii-xo"
-API_KEY = "AIzaSyBTiDOstnVdkDnmYiHvJLJEHXoHNqLCqUU"
+# Load environment variables
+load_dotenv()
+
+# Get API key from .env
+API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not API_KEY:
+    raise ValueError("GEMINI_API_KEY not found in .env file")
 
 # Configure Gemini
 genai.configure(api_key=API_KEY)
 
-# Model
+# Load model
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def generate_response(prompt: str) -> str:
@@ -16,6 +23,6 @@ def generate_response(prompt: str) -> str:
         if response and response.text:
             return response.text.strip()
         return "Thank you for your feedback."
-    except Exception as e:
+    except Exception:
         # Never crash backend
         return "Thank you for your feedback. We appreciate you sharing your thoughts."
